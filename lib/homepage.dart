@@ -45,28 +45,3 @@ class _HomepageState extends State<Homepage> {
 }
 
 
-/*
-   SharedPreferences? prefs;
-
-  int visitTime = 0;
-
-  setvisit() async {
-    setState(() {
-      visitTime++;
-    });
-    await prefs!.setInt('uservisit', visitTime);
-  }
-
-  @override
-  void initState() {
-    getstate();
-  }
-
-  getstate() async {
-    prefs = await SharedPreferences.getInstance();
-    setState(() {
-      visitTime = prefs!.getInt('uservisit') ?? 0;
-    });
-    setvisit();
-  }
-*/
